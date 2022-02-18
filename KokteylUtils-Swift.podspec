@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
     s.source = { :git => 'https://github.com/kokteyldev/kokteyl.utils.swift.ios.git', :tag => s.version }
     s.documentation_url = 'https://github.com/kokteyldev/kokteyl.utils.swift.ios.git'
 
-    s.platform = :ios
     s.ios.deployment_target = '11.0'
+    s.osx.deployment_target = '12.1'
 
     s.swift_versions = ['5.3', '5.4', '5.5']
     

@@ -8,7 +8,8 @@
 import PackageDescription
 
 let package = Package(name: "KokteylUtils-Swift",
-                      platforms: [.iOS(.v11)],
+                      platforms: [.macOS(.v11_1),
+                                  .iOS(.v11)],
                       products: [.library(name: "KokteylUtils",
                                           targets: ["KokteylUtils"])],
                       targets: [.target(name: "KokteylUtils",
