@@ -10,7 +10,7 @@ import UIKit
 
 extension UIViewController {
     static func topMostVC() -> UIViewController? {
-        return UIApplication.shared.keyWindow?.rootViewController?.topMostViewController()
+        return UIApplication.rootWindow?.rootViewController?.topMostViewController()
     }
     
     private func topMostViewController() -> UIViewController {

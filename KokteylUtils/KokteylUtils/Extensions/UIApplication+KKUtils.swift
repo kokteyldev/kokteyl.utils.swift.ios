@@ -9,20 +9,24 @@
 import UIKit
 
 extension UIApplication {
-    
-    static var rootVC: UIWindow? {
-        if let root = UIApplication.shared.windows.first {
-            return root
+    static var rootWindow: UIWindow? {
+        if #available(iOS 13.0, *) {
+            return UIApplication.shared.connectedScenes
+                .filter({$0.activationState == .foregroundActive})
+                .compactMap({$0 as? UIWindowScene})
+                .first?.windows
+                .filter({$0.isKeyWindow}).first
+        } else {
+            return UIApplication.shared.keyWindow
         }
         
-        return UIApplication.shared.keyWindow
     }
     
     static var safeAreaBottom: CGFloat {
-        return rootVC?.safeAreaInsets.bottom ?? 0
+        return rootWindow?.safeAreaInsets.bottom ?? 0
     }
     
-    class func topViewController(_ controller: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+    class func topViewController(_ controller: UIViewController? = UIApplication.rootWindow?.rootViewController) -> UIViewController? {
         if let navigationController = controller as? UINavigationController {
             return topViewController(navigationController.visibleViewController)
         }
