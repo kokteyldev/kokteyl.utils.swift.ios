@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
     s.swift_versions = ['5.3', '5.4', '5.5']
     
     s.source_files = 'KokteylUtils/**/*.swift'
+    s.frameworks = 'UIKit'
 end
 
