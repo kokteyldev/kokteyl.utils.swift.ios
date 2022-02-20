@@ -3,6 +3,7 @@
 //  KokteylUtilsTests
 //
 //  Created by Mehmet Karagöz on 20.02.2022.
+//  Copyright © 2022 Kokteyl.
 //
 
 import XCTest

@@ -1,8 +1,10 @@
+// swift-tools-version:5.5
 //
 //  Package.swift
 //  KokteylUtils
 //
 //  Created by Mehmet Karagöz on 18.02.2022.
+//  Copyright © 2022 Kokteyl.
 //
 
 import PackageDescription

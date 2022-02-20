@@ -3,7 +3,7 @@
 //  KokteylUtils
 //
 //  Created by Mehmet Karagöz on 18.02.2022.
-//  Copyright © 2022 Kokteyl. All rights reserved.
+//  Copyright © 2022 Kokteyl.
 //
 
 import Foundation
