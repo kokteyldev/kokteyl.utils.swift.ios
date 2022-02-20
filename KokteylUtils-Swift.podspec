@@ -14,9 +14,7 @@ Pod::Spec.new do |s|
     
     s.platform = :ios
     s.ios.deployment_target = '11.0'
-
     s.swift_versions = ['5.3', '5.4', '5.5']
-    
     s.source_files = 'KokteylUtils/**/*.swift'
     s.frameworks = 'UIKit'
 end
