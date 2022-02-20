@@ -1,0 +1,17 @@
+//
+//  Package.swift
+//  KokteylUtils
+//
+//  Created by Mehmet Karagöz on 18.02.2022.
+//
+
+import PackageDescription
+
+let package = Package(name: "KokteylUtils-Swift",
+                      platforms: [.iOS(.v11)],
+                      products: [.library(name: "KokteylUtils",
+                                          targets: ["KokteylUtils"])],
+                      targets: [.target(name: "KokteylUtils",
+                                        path: "KokteylUtils/KokteylUtils",
+                                        exclude: ["Info.plist"]],
+                      swiftLanguageVersions: [.v5])

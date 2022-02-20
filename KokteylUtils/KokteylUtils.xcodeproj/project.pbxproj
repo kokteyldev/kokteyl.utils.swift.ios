@@ -7,130 +7,182 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EA3775C27C2D1CC0001BD30 /* KokteylUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA3775B27C2D1CC0001BD30 /* KokteylUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EA3777327C2D1F80001BD30 /* UITableView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776327C2D1F80001BD30 /* UITableView+KKUtils.swift */; };
-		9EA3777427C2D1F80001BD30 /* UIColor+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776427C2D1F80001BD30 /* UIColor+KKUtils.swift */; };
-		9EA3777527C2D1F80001BD30 /* UINavigationController+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776527C2D1F80001BD30 /* UINavigationController+KKUtils.swift */; };
-		9EA3777627C2D1F80001BD30 /* String+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776627C2D1F80001BD30 /* String+KKUtils.swift */; };
-		9EA3777727C2D1F80001BD30 /* UIButton+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776727C2D1F80001BD30 /* UIButton+KKUtils.swift */; };
-		9EA3777827C2D1F80001BD30 /* UILabel+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776827C2D1F80001BD30 /* UILabel+KKUtils.swift */; };
-		9EA3777927C2D1F80001BD30 /* UITabBar+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776927C2D1F80001BD30 /* UITabBar+KKUtils.swift */; };
-		9EA3777A27C2D1F80001BD30 /* UIViewController+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776A27C2D1F80001BD30 /* UIViewController+KKUtils.swift */; };
-		9EA3777B27C2D1F80001BD30 /* UICollectionView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776B27C2D1F80001BD30 /* UICollectionView+KKUtils.swift */; };
-		9EA3777C27C2D1F80001BD30 /* UIApplication+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776C27C2D1F80001BD30 /* UIApplication+KKUtils.swift */; };
-		9EA3777D27C2D1F80001BD30 /* Error+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776D27C2D1F80001BD30 /* Error+KKUtils.swift */; };
-		9EA3777E27C2D1F80001BD30 /* StringFormatter+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776E27C2D1F80001BD30 /* StringFormatter+KKUtils.swift */; };
-		9EA3777F27C2D1F80001BD30 /* UIView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3776F27C2D1F80001BD30 /* UIView+KKUtils.swift */; };
-		9EA3778027C2D1F80001BD30 /* Locale+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3777027C2D1F80001BD30 /* Locale+KKUtils.swift */; };
-		9EA3778127C2D1F80001BD30 /* Dictionary+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3777127C2D1F80001BD30 /* Dictionary+KKUtils.swift */; };
-		9EA3778227C2D1F80001BD30 /* UITextField+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3777227C2D1F80001BD30 /* UITextField+KKUtils.swift */; };
-		9EA3778427C2D23B0001BD30 /* KokteylUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3778327C2D23B0001BD30 /* KokteylUtils.swift */; };
+		9EA3779B27C2D47E0001BD30 /* KokteylUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA3779227C2D47E0001BD30 /* KokteylUtils.framework */; };
+		9EA377A027C2D47E0001BD30 /* KokteylUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3779F27C2D47E0001BD30 /* KokteylUtilsTests.swift */; };
+		9EA377BB27C2D4A10001BD30 /* UITableView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377AB27C2D4A10001BD30 /* UITableView+KKUtils.swift */; };
+		9EA377BC27C2D4A10001BD30 /* UIColor+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377AC27C2D4A10001BD30 /* UIColor+KKUtils.swift */; };
+		9EA377BD27C2D4A10001BD30 /* UINavigationController+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377AD27C2D4A10001BD30 /* UINavigationController+KKUtils.swift */; };
+		9EA377BE27C2D4A10001BD30 /* String+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377AE27C2D4A10001BD30 /* String+KKUtils.swift */; };
+		9EA377BF27C2D4A10001BD30 /* UIButton+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377AF27C2D4A10001BD30 /* UIButton+KKUtils.swift */; };
+		9EA377C027C2D4A10001BD30 /* UILabel+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B027C2D4A10001BD30 /* UILabel+KKUtils.swift */; };
+		9EA377C127C2D4A10001BD30 /* UITabBar+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B127C2D4A10001BD30 /* UITabBar+KKUtils.swift */; };
+		9EA377C227C2D4A10001BD30 /* UIViewController+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B227C2D4A10001BD30 /* UIViewController+KKUtils.swift */; };
+		9EA377C327C2D4A10001BD30 /* UICollectionView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B327C2D4A10001BD30 /* UICollectionView+KKUtils.swift */; };
+		9EA377C427C2D4A10001BD30 /* UIApplication+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B427C2D4A10001BD30 /* UIApplication+KKUtils.swift */; };
+		9EA377C527C2D4A10001BD30 /* Error+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B527C2D4A10001BD30 /* Error+KKUtils.swift */; };
+		9EA377C627C2D4A10001BD30 /* StringFormatter+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B627C2D4A10001BD30 /* StringFormatter+KKUtils.swift */; };
+		9EA377C727C2D4A10001BD30 /* UIView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B727C2D4A10001BD30 /* UIView+KKUtils.swift */; };
+		9EA377C827C2D4A10001BD30 /* Locale+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B827C2D4A10001BD30 /* Locale+KKUtils.swift */; };
+		9EA377C927C2D4A10001BD30 /* Dictionary+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377B927C2D4A10001BD30 /* Dictionary+KKUtils.swift */; };
+		9EA377CA27C2D4A10001BD30 /* UITextField+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377BA27C2D4A10001BD30 /* UITextField+KKUtils.swift */; };
+		9EA377CC27C2D4AD0001BD30 /* KokteylUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA377CB27C2D4AD0001BD30 /* KokteylUtils.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9EA3779C27C2D47E0001BD30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EA3778927C2D47E0001BD30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EA3779127C2D47E0001BD30;
+			remoteInfo = KokteylUtils;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		9EA3775827C2D1CC0001BD30 /* KokteylUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KokteylUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA3775B27C2D1CC0001BD30 /* KokteylUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KokteylUtils.h; sourceTree = "<group>"; };
-		9EA3776327C2D1F80001BD30 /* UITableView+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776427C2D1F80001BD30 /* UIColor+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776527C2D1F80001BD30 /* UINavigationController+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776627C2D1F80001BD30 /* String+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776727C2D1F80001BD30 /* UIButton+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776827C2D1F80001BD30 /* UILabel+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776927C2D1F80001BD30 /* UITabBar+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776A27C2D1F80001BD30 /* UIViewController+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776B27C2D1F80001BD30 /* UICollectionView+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776C27C2D1F80001BD30 /* UIApplication+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776D27C2D1F80001BD30 /* Error+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776E27C2D1F80001BD30 /* StringFormatter+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringFormatter+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3776F27C2D1F80001BD30 /* UIView+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3777027C2D1F80001BD30 /* Locale+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3777127C2D1F80001BD30 /* Dictionary+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3777227C2D1F80001BD30 /* UITextField+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+KKUtils.swift"; sourceTree = "<group>"; };
-		9EA3778327C2D23B0001BD30 /* KokteylUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokteylUtils.swift; sourceTree = "<group>"; };
+		9EA3779227C2D47E0001BD30 /* KokteylUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KokteylUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA3779A27C2D47E0001BD30 /* KokteylUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KokteylUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA3779F27C2D47E0001BD30 /* KokteylUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokteylUtilsTests.swift; sourceTree = "<group>"; };
+		9EA377AB27C2D4A10001BD30 /* UITableView+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377AC27C2D4A10001BD30 /* UIColor+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377AD27C2D4A10001BD30 /* UINavigationController+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377AE27C2D4A10001BD30 /* String+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377AF27C2D4A10001BD30 /* UIButton+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B027C2D4A10001BD30 /* UILabel+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B127C2D4A10001BD30 /* UITabBar+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B227C2D4A10001BD30 /* UIViewController+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B327C2D4A10001BD30 /* UICollectionView+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B427C2D4A10001BD30 /* UIApplication+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B527C2D4A10001BD30 /* Error+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Error+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B627C2D4A10001BD30 /* StringFormatter+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "StringFormatter+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B727C2D4A10001BD30 /* UIView+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B827C2D4A10001BD30 /* Locale+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locale+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377B927C2D4A10001BD30 /* Dictionary+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377BA27C2D4A10001BD30 /* UITextField+KKUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+KKUtils.swift"; sourceTree = "<group>"; };
+		9EA377CB27C2D4AD0001BD30 /* KokteylUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokteylUtils.swift; sourceTree = "<group>"; };
+		9EA377CE27C2D5650001BD30 /* KokteylUtils-Swift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = "KokteylUtils-Swift.podspec"; path = "../KokteylUtils-Swift.podspec"; sourceTree = "<group>"; };
+		9EA377CF27C2D5650001BD30 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Package.swift; sourceTree = "<group>"; };
+		9EA377D027C2D5650001BD30 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9EA377D227C2D5820001BD30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EA3775527C2D1CC0001BD30 /* Frameworks */ = {
+		9EA3778F27C2D47E0001BD30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9EA3779727C2D47E0001BD30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA3779B27C2D47E0001BD30 /* KokteylUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9EA3774E27C2D1CC0001BD30 = {
+		9EA3778827C2D47E0001BD30 = {
 			isa = PBXGroup;
 			children = (
-				9EA3775A27C2D1CC0001BD30 /* KokteylUtils */,
-				9EA3775927C2D1CC0001BD30 /* Products */,
+				9EA377CD27C2D5410001BD30 /* Deployment */,
+				9EA377D127C2D56E0001BD30 /* Documentation */,
+				9EA3779427C2D47E0001BD30 /* KokteylUtils */,
+				9EA3779E27C2D47E0001BD30 /* Tests */,
+				9EA3779327C2D47E0001BD30 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9EA3775927C2D1CC0001BD30 /* Products */ = {
+		9EA3779327C2D47E0001BD30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EA3775827C2D1CC0001BD30 /* KokteylUtils.framework */,
+				9EA3779227C2D47E0001BD30 /* KokteylUtils.framework */,
+				9EA3779A27C2D47E0001BD30 /* KokteylUtilsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EA3775A27C2D1CC0001BD30 /* KokteylUtils */ = {
+		9EA3779427C2D47E0001BD30 /* KokteylUtils */ = {
 			isa = PBXGroup;
 			children = (
-				9EA3775B27C2D1CC0001BD30 /* KokteylUtils.h */,
-				9EA3778327C2D23B0001BD30 /* KokteylUtils.swift */,
-				9EA3776227C2D1F80001BD30 /* Extensions */,
+				9EA377CB27C2D4AD0001BD30 /* KokteylUtils.swift */,
+				9EA377AA27C2D4A10001BD30 /* Extensions */,
 			);
 			path = KokteylUtils;
 			sourceTree = "<group>";
 		};
-		9EA3776227C2D1F80001BD30 /* Extensions */ = {
+		9EA3779E27C2D47E0001BD30 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				9EA3776327C2D1F80001BD30 /* UITableView+KKUtils.swift */,
-				9EA3776427C2D1F80001BD30 /* UIColor+KKUtils.swift */,
-				9EA3776527C2D1F80001BD30 /* UINavigationController+KKUtils.swift */,
-				9EA3776627C2D1F80001BD30 /* String+KKUtils.swift */,
-				9EA3776727C2D1F80001BD30 /* UIButton+KKUtils.swift */,
-				9EA3776827C2D1F80001BD30 /* UILabel+KKUtils.swift */,
-				9EA3776927C2D1F80001BD30 /* UITabBar+KKUtils.swift */,
-				9EA3776A27C2D1F80001BD30 /* UIViewController+KKUtils.swift */,
-				9EA3776B27C2D1F80001BD30 /* UICollectionView+KKUtils.swift */,
-				9EA3776C27C2D1F80001BD30 /* UIApplication+KKUtils.swift */,
-				9EA3776D27C2D1F80001BD30 /* Error+KKUtils.swift */,
-				9EA3776E27C2D1F80001BD30 /* StringFormatter+KKUtils.swift */,
-				9EA3776F27C2D1F80001BD30 /* UIView+KKUtils.swift */,
-				9EA3777027C2D1F80001BD30 /* Locale+KKUtils.swift */,
-				9EA3777127C2D1F80001BD30 /* Dictionary+KKUtils.swift */,
-				9EA3777227C2D1F80001BD30 /* UITextField+KKUtils.swift */,
+				9EA3779F27C2D47E0001BD30 /* KokteylUtilsTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		9EA377AA27C2D4A10001BD30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9EA377AB27C2D4A10001BD30 /* UITableView+KKUtils.swift */,
+				9EA377AC27C2D4A10001BD30 /* UIColor+KKUtils.swift */,
+				9EA377AD27C2D4A10001BD30 /* UINavigationController+KKUtils.swift */,
+				9EA377AE27C2D4A10001BD30 /* String+KKUtils.swift */,
+				9EA377AF27C2D4A10001BD30 /* UIButton+KKUtils.swift */,
+				9EA377B027C2D4A10001BD30 /* UILabel+KKUtils.swift */,
+				9EA377B127C2D4A10001BD30 /* UITabBar+KKUtils.swift */,
+				9EA377B227C2D4A10001BD30 /* UIViewController+KKUtils.swift */,
+				9EA377B327C2D4A10001BD30 /* UICollectionView+KKUtils.swift */,
+				9EA377B427C2D4A10001BD30 /* UIApplication+KKUtils.swift */,
+				9EA377B527C2D4A10001BD30 /* Error+KKUtils.swift */,
+				9EA377B627C2D4A10001BD30 /* StringFormatter+KKUtils.swift */,
+				9EA377B727C2D4A10001BD30 /* UIView+KKUtils.swift */,
+				9EA377B827C2D4A10001BD30 /* Locale+KKUtils.swift */,
+				9EA377B927C2D4A10001BD30 /* Dictionary+KKUtils.swift */,
+				9EA377BA27C2D4A10001BD30 /* UITextField+KKUtils.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9EA377CD27C2D5410001BD30 /* Deployment */ = {
+			isa = PBXGroup;
+			children = (
+				9EA377CE27C2D5650001BD30 /* KokteylUtils-Swift.podspec */,
+				9EA377D027C2D5650001BD30 /* LICENSE */,
+				9EA377CF27C2D5650001BD30 /* Package.swift */,
+			);
+			name = Deployment;
+			sourceTree = "<group>";
+		};
+		9EA377D127C2D56E0001BD30 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				9EA377D227C2D5820001BD30 /* README.md */,
+			);
+			name = Documentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9EA3775327C2D1CC0001BD30 /* Headers */ = {
+		9EA3778D27C2D47E0001BD30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA3775C27C2D1CC0001BD30 /* KokteylUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9EA3775727C2D1CC0001BD30 /* KokteylUtils */ = {
+		9EA3779127C2D47E0001BD30 /* KokteylUtils */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EA3775F27C2D1CC0001BD30 /* Build configuration list for PBXNativeTarget "KokteylUtils" */;
+			buildConfigurationList = 9EA377A427C2D47E0001BD30 /* Build configuration list for PBXNativeTarget "KokteylUtils" */;
 			buildPhases = (
-				9EA3775327C2D1CC0001BD30 /* Headers */,
-				9EA3775427C2D1CC0001BD30 /* Sources */,
-				9EA3775527C2D1CC0001BD30 /* Frameworks */,
-				9EA3775627C2D1CC0001BD30 /* Resources */,
+				9EA3778D27C2D47E0001BD30 /* Headers */,
+				9EA3778E27C2D47E0001BD30 /* Sources */,
+				9EA3778F27C2D47E0001BD30 /* Frameworks */,
+				9EA3779027C2D47E0001BD30 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +190,46 @@
 			);
 			name = KokteylUtils;
 			productName = KokteylUtils;
-			productReference = 9EA3775827C2D1CC0001BD30 /* KokteylUtils.framework */;
+			productReference = 9EA3779227C2D47E0001BD30 /* KokteylUtils.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		9EA3779927C2D47E0001BD30 /* KokteylUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA377A727C2D47E0001BD30 /* Build configuration list for PBXNativeTarget "KokteylUtilsTests" */;
+			buildPhases = (
+				9EA3779627C2D47E0001BD30 /* Sources */,
+				9EA3779727C2D47E0001BD30 /* Frameworks */,
+				9EA3779827C2D47E0001BD30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EA3779D27C2D47E0001BD30 /* PBXTargetDependency */,
+			);
+			name = KokteylUtilsTests;
+			productName = KokteylUtilsTests;
+			productReference = 9EA3779A27C2D47E0001BD30 /* KokteylUtilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9EA3774F27C2D1CC0001BD30 /* Project object */ = {
+		9EA3778927C2D47E0001BD30 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					9EA3775727C2D1CC0001BD30 = {
+					9EA3779127C2D47E0001BD30 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9EA3779927C2D47E0001BD30 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 9EA3775227C2D1CC0001BD30 /* Build configuration list for PBXProject "KokteylUtils" */;
+			buildConfigurationList = 9EA3778C27C2D47E0001BD30 /* Build configuration list for PBXProject "KokteylUtils" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,18 +237,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 9EA3774E27C2D1CC0001BD30;
-			productRefGroup = 9EA3775927C2D1CC0001BD30 /* Products */;
+			mainGroup = 9EA3778827C2D47E0001BD30;
+			productRefGroup = 9EA3779327C2D47E0001BD30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EA3775727C2D1CC0001BD30 /* KokteylUtils */,
+				9EA3779127C2D47E0001BD30 /* KokteylUtils */,
+				9EA3779927C2D47E0001BD30 /* KokteylUtilsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9EA3775627C2D1CC0001BD30 /* Resources */ = {
+		9EA3779027C2D47E0001BD30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA3779827C2D47E0001BD30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,34 +266,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EA3775427C2D1CC0001BD30 /* Sources */ = {
+		9EA3778E27C2D47E0001BD30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA3777A27C2D1F80001BD30 /* UIViewController+KKUtils.swift in Sources */,
-				9EA3778127C2D1F80001BD30 /* Dictionary+KKUtils.swift in Sources */,
-				9EA3777F27C2D1F80001BD30 /* UIView+KKUtils.swift in Sources */,
-				9EA3777B27C2D1F80001BD30 /* UICollectionView+KKUtils.swift in Sources */,
-				9EA3777927C2D1F80001BD30 /* UITabBar+KKUtils.swift in Sources */,
-				9EA3777827C2D1F80001BD30 /* UILabel+KKUtils.swift in Sources */,
-				9EA3777727C2D1F80001BD30 /* UIButton+KKUtils.swift in Sources */,
-				9EA3777E27C2D1F80001BD30 /* StringFormatter+KKUtils.swift in Sources */,
-				9EA3777D27C2D1F80001BD30 /* Error+KKUtils.swift in Sources */,
-				9EA3777627C2D1F80001BD30 /* String+KKUtils.swift in Sources */,
-				9EA3778427C2D23B0001BD30 /* KokteylUtils.swift in Sources */,
-				9EA3778027C2D1F80001BD30 /* Locale+KKUtils.swift in Sources */,
-				9EA3777327C2D1F80001BD30 /* UITableView+KKUtils.swift in Sources */,
-				9EA3777427C2D1F80001BD30 /* UIColor+KKUtils.swift in Sources */,
-				9EA3778227C2D1F80001BD30 /* UITextField+KKUtils.swift in Sources */,
-				9EA3777C27C2D1F80001BD30 /* UIApplication+KKUtils.swift in Sources */,
-				9EA3777527C2D1F80001BD30 /* UINavigationController+KKUtils.swift in Sources */,
+				9EA377C227C2D4A10001BD30 /* UIViewController+KKUtils.swift in Sources */,
+				9EA377C927C2D4A10001BD30 /* Dictionary+KKUtils.swift in Sources */,
+				9EA377C727C2D4A10001BD30 /* UIView+KKUtils.swift in Sources */,
+				9EA377C327C2D4A10001BD30 /* UICollectionView+KKUtils.swift in Sources */,
+				9EA377C127C2D4A10001BD30 /* UITabBar+KKUtils.swift in Sources */,
+				9EA377C027C2D4A10001BD30 /* UILabel+KKUtils.swift in Sources */,
+				9EA377BF27C2D4A10001BD30 /* UIButton+KKUtils.swift in Sources */,
+				9EA377C627C2D4A10001BD30 /* StringFormatter+KKUtils.swift in Sources */,
+				9EA377C527C2D4A10001BD30 /* Error+KKUtils.swift in Sources */,
+				9EA377BE27C2D4A10001BD30 /* String+KKUtils.swift in Sources */,
+				9EA377CC27C2D4AD0001BD30 /* KokteylUtils.swift in Sources */,
+				9EA377C827C2D4A10001BD30 /* Locale+KKUtils.swift in Sources */,
+				9EA377BB27C2D4A10001BD30 /* UITableView+KKUtils.swift in Sources */,
+				9EA377BC27C2D4A10001BD30 /* UIColor+KKUtils.swift in Sources */,
+				9EA377CA27C2D4A10001BD30 /* UITextField+KKUtils.swift in Sources */,
+				9EA377C427C2D4A10001BD30 /* UIApplication+KKUtils.swift in Sources */,
+				9EA377BD27C2D4A10001BD30 /* UINavigationController+KKUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA3779627C2D47E0001BD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA377A027C2D47E0001BD30 /* KokteylUtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9EA3779D27C2D47E0001BD30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EA3779127C2D47E0001BD30 /* KokteylUtils */;
+			targetProxy = 9EA3779C27C2D47E0001BD30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		9EA3775D27C2D1CC0001BD30 /* Debug */ = {
+		9EA377A227C2D47E0001BD30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -275,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		9EA3775E27C2D1CC0001BD30 /* Release */ = {
+		9EA377A327C2D47E0001BD30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -333,7 +431,7 @@
 			};
 			name = Release;
 		};
-		9EA3776027C2D1CC0001BD30 /* Debug */ = {
+		9EA377A527C2D47E0001BD30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -347,13 +445,12 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kokteyl.KokteylUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -363,7 +460,7 @@
 			};
 			name = Debug;
 		};
-		9EA3776127C2D1CC0001BD30 /* Release */ = {
+		9EA377A627C2D47E0001BD30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -377,13 +474,12 @@
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kokteyl.KokteylUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -393,28 +489,71 @@
 			};
 			name = Release;
 		};
+		9EA377A827C2D47E0001BD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AUH76QNW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokteyl.KokteylUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EA377A927C2D47E0001BD30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6AUH76QNW9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kokteyl.KokteylUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EA3775227C2D1CC0001BD30 /* Build configuration list for PBXProject "KokteylUtils" */ = {
+		9EA3778C27C2D47E0001BD30 /* Build configuration list for PBXProject "KokteylUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EA3775D27C2D1CC0001BD30 /* Debug */,
-				9EA3775E27C2D1CC0001BD30 /* Release */,
+				9EA377A227C2D47E0001BD30 /* Debug */,
+				9EA377A327C2D47E0001BD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EA3775F27C2D1CC0001BD30 /* Build configuration list for PBXNativeTarget "KokteylUtils" */ = {
+		9EA377A427C2D47E0001BD30 /* Build configuration list for PBXNativeTarget "KokteylUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EA3776027C2D1CC0001BD30 /* Debug */,
-				9EA3776127C2D1CC0001BD30 /* Release */,
+				9EA377A527C2D47E0001BD30 /* Debug */,
+				9EA377A627C2D47E0001BD30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EA377A727C2D47E0001BD30 /* Build configuration list for PBXNativeTarget "KokteylUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA377A827C2D47E0001BD30 /* Debug */,
+				9EA377A927C2D47E0001BD30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9EA3774F27C2D1CC0001BD30 /* Project object */;
+	rootObject = 9EA3778927C2D47E0001BD30 /* Project object */;
 }
