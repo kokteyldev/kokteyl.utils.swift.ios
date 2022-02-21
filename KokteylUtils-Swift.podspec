@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'KokteylUtils-Swift'
-    s.version = '1.0.7'
+    s.version = '1.0.8'
     s.license = { :type => 'MIT', :text => <<-LICENSE
                 Copyright 2019
                 KOKTEYL Bilgi Teknolojisi Hizmetleri A.S.

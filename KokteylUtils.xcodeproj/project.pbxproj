@@ -26,6 +26,9 @@
 		9ECAAAC227C3C8DA00F583C4 /* Dictionary+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAAB127C3C8DA00F583C4 /* Dictionary+KKUtils.swift */; };
 		9ECAAAC327C3C8DA00F583C4 /* UITextField+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAAB227C3C8DA00F583C4 /* UITextField+KKUtils.swift */; };
 		9ECAAAC427C3C8DA00F583C4 /* KokteylUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAAB327C3C8DA00F583C4 /* KokteylUtils.swift */; };
+		9ECAAAE327C3DB7D00F583C4 /* KKAnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAAE227C3DB7D00F583C4 /* KKAnimatedImageView.swift */; };
+		9ECAAAE527C3DBA500F583C4 /* KKUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAAE427C3DBA500F583C4 /* KKUILabel.swift */; };
+		9ECAAAE727C3DBBE00F583C4 /* KKUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAAE627C3DBBE00F583C4 /* KKUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		9ECAAAC627C3C97B00F583C4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9ECAAAC727C3C97B00F583C4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		9ECAAAC827C3C98500F583C4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9ECAAAE227C3DB7D00F583C4 /* KKAnimatedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKAnimatedImageView.swift; sourceTree = "<group>"; };
+		9ECAAAE427C3DBA500F583C4 /* KKUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKUILabel.swift; sourceTree = "<group>"; };
+		9ECAAAE627C3DBBE00F583C4 /* KKUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +141,7 @@
 			children = (
 				9ECAAAB327C3C8DA00F583C4 /* KokteylUtils.swift */,
 				9ECAAAA227C3C8DA00F583C4 /* Extensions */,
+				9ECAAAE127C3DB6300F583C4 /* Views */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -160,6 +167,16 @@
 				9ECAAAB227C3C8DA00F583C4 /* UITextField+KKUtils.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9ECAAAE127C3DB6300F583C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9ECAAAE227C3DB7D00F583C4 /* KKAnimatedImageView.swift */,
+				9ECAAAE427C3DBA500F583C4 /* KKUILabel.swift */,
+				9ECAAAE627C3DBBE00F583C4 /* KKUIView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,15 +295,18 @@
 				9ECAAAB927C3C8DA00F583C4 /* UILabel+KKUtils.swift in Sources */,
 				9ECAAAB827C3C8DA00F583C4 /* UIButton+KKUtils.swift in Sources */,
 				9ECAAABF27C3C8DA00F583C4 /* StringFormatter+KKUtils.swift in Sources */,
+				9ECAAAE727C3DBBE00F583C4 /* KKUIView.swift in Sources */,
 				9ECAAABE27C3C8DA00F583C4 /* Error+KKUtils.swift in Sources */,
 				9ECAAAB727C3C8DA00F583C4 /* String+KKUtils.swift in Sources */,
 				9ECAAAC427C3C8DA00F583C4 /* KokteylUtils.swift in Sources */,
 				9ECAAAC127C3C8DA00F583C4 /* Locale+KKUtils.swift in Sources */,
 				9ECAAAB427C3C8DA00F583C4 /* UITableView+KKUtils.swift in Sources */,
+				9ECAAAE527C3DBA500F583C4 /* KKUILabel.swift in Sources */,
 				9ECAAAB527C3C8DA00F583C4 /* UIColor+KKUtils.swift in Sources */,
 				9ECAAAC327C3C8DA00F583C4 /* UITextField+KKUtils.swift in Sources */,
 				9ECAAABD27C3C8DA00F583C4 /* UIApplication+KKUtils.swift in Sources */,
 				9ECAAAB627C3C8DA00F583C4 /* UINavigationController+KKUtils.swift in Sources */,
+				9ECAAAE327C3DB7D00F583C4 /* KKAnimatedImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +470,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.7;
+				MARKETING_VERSION = 1.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kokteyl.KokteylUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -479,7 +499,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.7;
+				MARKETING_VERSION = 1.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kokteyl.KokteylUtils;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
