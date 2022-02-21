@@ -8,7 +8,7 @@
 import UIKit
 
 final public class KKUILabel: UILabel {
-    @IBInspectable var cornerRadius: CGFloat {
+    @IBInspectable public var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
         }

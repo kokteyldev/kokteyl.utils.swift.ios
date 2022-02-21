@@ -13,11 +13,11 @@ final public class KKAnimatedImageView: UIImageView {
     var duration: TimeInterval = 2
     
     // MARK: - View Lifecycle
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         super.init(coder: coder)
     }
     
@@ -27,7 +27,7 @@ final public class KKAnimatedImageView: UIImageView {
     
     // MARK: - Animation
     
-    func startAnimation() {
+    public func startAnimation() {
         guard let imageName = imageName, frameCount != 0 else { return }
         
         var images: [UIImage] = []

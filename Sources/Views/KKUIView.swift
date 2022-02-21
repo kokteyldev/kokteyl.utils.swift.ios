@@ -8,7 +8,7 @@
 import UIKit
 
 final public class KKUIView: UIView {
-    @IBInspectable var cornerRadius: CGFloat {
+    @IBInspectable public var cornerRadius: CGFloat {
         get {
             return layer.cornerRadius
         }
