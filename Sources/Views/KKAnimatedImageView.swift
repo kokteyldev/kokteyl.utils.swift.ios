@@ -8,9 +8,9 @@
 import UIKit
 
 final public class KKAnimatedImageView: UIImageView {
-    var imageName: String?
-    var frameCount: Int = 0
-    var duration: TimeInterval = 2
+    public var imageName: String?
+    public var frameCount: Int = 0
+    public var duration: TimeInterval = 2
     
     // MARK: - View Lifecycle
     public override init(frame: CGRect) {

@@ -18,7 +18,7 @@ final public class KKUIView: UIView {
         }
     }
     
-    @IBInspectable var borderColor: UIColor? {
+    @IBInspectable public var borderColor: UIColor? {
         get {
             guard let color = layer.borderColor else { return nil }
             return UIColor(cgColor: color)
@@ -28,7 +28,7 @@ final public class KKUIView: UIView {
         }
     }
     
-    @IBInspectable var borderWidth: CGFloat {
+    @IBInspectable public var borderWidth: CGFloat {
         get {
             return layer.borderWidth
         }
@@ -37,7 +37,7 @@ final public class KKUIView: UIView {
         }
     }
     
-    @IBInspectable var isCirclular: Bool {
+    @IBInspectable public var isCirclular: Bool {
         get {
             return layer.masksToBounds
         }
@@ -49,7 +49,7 @@ final public class KKUIView: UIView {
         }
     }
         
-    @IBInspectable var shadowColor: UIColor? {
+    @IBInspectable public var shadowColor: UIColor? {
         get {
             guard let color = layer.shadowColor else { return nil }
             return UIColor(cgColor: color)
@@ -59,7 +59,7 @@ final public class KKUIView: UIView {
         }
     }
 
-    @IBInspectable var shadowOffset: CGSize {
+    @IBInspectable public var shadowOffset: CGSize {
         get {
             return layer.shadowOffset
         }
@@ -68,7 +68,7 @@ final public class KKUIView: UIView {
         }
     }
 
-    @IBInspectable var shadowOpacity: Float {
+    @IBInspectable public var shadowOpacity: Float {
         get {
             return layer.shadowOpacity
         }
@@ -77,7 +77,7 @@ final public class KKUIView: UIView {
         }
     }
 
-    @IBInspectable var shadowRadius: CGFloat {
+    @IBInspectable public var shadowRadius: CGFloat {
         get {
             return layer.shadowRadius
         }
@@ -86,7 +86,7 @@ final public class KKUIView: UIView {
         }
     }
 
-    @IBInspectable var masksToBounds: Bool {
+    @IBInspectable public var masksToBounds: Bool {
         get {
             return layer.masksToBounds
         }
