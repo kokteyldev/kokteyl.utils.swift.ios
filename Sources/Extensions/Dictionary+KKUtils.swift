@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension Dictionary {
+public extension Dictionary {
     var queryString: String? {
         return self.reduce("") { "\($0!)\($1.0)=\($1.1)&" }
     }

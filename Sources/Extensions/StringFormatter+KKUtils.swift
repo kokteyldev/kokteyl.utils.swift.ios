@@ -8,8 +8,7 @@
 
 import UIKit
 
-extension String {
-
+public extension String {
     fileprivate static let ANYONE_CHAR_UPPER = "X"
     fileprivate static let ONLY_CHAR_UPPER = "C"
     fileprivate static let ONLY_NUMBER_UPPER = "N"

@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UINavigationController {
+public extension UINavigationController {
     func setNavigationBarTransparent(_ isTransparent: Bool) {
         if isTransparent {
             if #available(iOS 15.0, *) {

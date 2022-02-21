@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension Locale {
+public extension Locale {
     static func locale(from currencyCode: String?) -> Locale {
         guard let currencyCode = currencyCode else {
             return Locale.current

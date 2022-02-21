@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UITextField {
-    @IBInspectable public var localizedKey: String? {
+public extension UITextField {
+    @IBInspectable var localizedKey: String? {
         get {
             return text
         }

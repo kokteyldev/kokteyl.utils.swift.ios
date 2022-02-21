@@ -8,9 +8,8 @@
 
 import UIKit
 
-extension UIButton {
-    
-    @IBInspectable public var localizedKey: String? {
+public extension UIButton {
+    @IBInspectable var localizedKey: String? {
         get {
             return title(for: .normal)
         }

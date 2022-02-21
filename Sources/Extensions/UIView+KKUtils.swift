@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     var safeAreaInset: UIEdgeInsets {
         if #available(iOS 11.0, *) {
             return self.safeAreaInsets

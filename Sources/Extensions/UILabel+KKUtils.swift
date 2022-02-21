@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UILabel {
-    @IBInspectable public var localizedKey: String? {
+public extension UILabel {
+    @IBInspectable var localizedKey: String? {
         get {
             return text
         }

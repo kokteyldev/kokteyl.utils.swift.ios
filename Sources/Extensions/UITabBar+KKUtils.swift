@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITabBar {
+public extension UITabBar {
     func setTabBarUI() {
         if #available(iOS 15, *) {
             let appearance = UITabBarAppearance()

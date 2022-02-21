@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITableView {
+public extension UITableView {
     func registerCell(type: UITableViewCell.Type, identifier: String? = nil) {
         let cellId = String(describing: type)
         register(UINib(nibName: cellId, bundle: nil), forCellReuseIdentifier: identifier ?? cellId)

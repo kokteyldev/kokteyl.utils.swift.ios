@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'KokteylUtils-Swift'
-    s.version = '1.0.4'
+    s.version = '1.0.5'
     s.license = { :type => 'MIT', :text => <<-LICENSE
                 Copyright 2019
                 KOKTEYL Bilgi Teknolojisi Hizmetleri A.S.
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '11.0'
     s.swift_versions = ['5.3', '5.4', '5.5']
     
-    s.source_files = 'KokteylUtils/KokteylUtils/**/*.swift'
+    s.source_files = 'Sources/**/*.swift'
 end
 

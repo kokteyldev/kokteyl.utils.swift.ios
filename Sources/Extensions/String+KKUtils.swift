@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     // MARK: - Localization
     var localized: String {

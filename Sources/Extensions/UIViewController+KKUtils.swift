@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     static func topMostVC() -> UIViewController? {
         return UIApplication.rootWindow?.rootViewController?.topMostViewController()
     }
