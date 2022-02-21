@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class KKAnimatedImageView: UIImageView {
+final public class KKAnimatedImageView: UIImageView {
     var imageName: String?
     var frameCount: Int = 0
     var duration: TimeInterval = 2
