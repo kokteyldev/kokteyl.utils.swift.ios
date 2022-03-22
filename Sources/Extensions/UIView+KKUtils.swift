@@ -60,4 +60,15 @@ public extension UIView {
         layer.shouldRasterize = true
         layer.rasterizationScale = scale ? UIScreen.main.scale : 1
       }
+    
+    //MARK: - Animation
+    func animateShake(withDuration duration: TimeInterval = 0.5, impactMultiplier: Int = 1) {
+        let shakeAnimation = CAKeyframeAnimation(keyPath: "transform.translation.x")
+        shakeAnimation.duration = duration
+        shakeAnimation.values = [-10 * impactMultiplier, 10 * impactMultiplier, -5 * impactMultiplier, 5 * impactMultiplier, 0]
+        shakeAnimation.beginTime = CACurrentMediaTime()
+        shakeAnimation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.default)
+
+        self.layer.add(shakeAnimation, forKey: "shake")
+    }
 }
