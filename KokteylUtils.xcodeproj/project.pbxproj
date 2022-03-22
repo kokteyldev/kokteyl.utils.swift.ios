@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FC0100A27E9F90000CB2F90 /* Collection+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0100927E9F90000CB2F90 /* Collection+KKUtils.swift */; };
 		9EA3779B27C2D47E0001BD30 /* KokteylUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA3779227C2D47E0001BD30 /* KokteylUtils.framework */; };
 		9EA377A027C2D47E0001BD30 /* KokteylUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3779F27C2D47E0001BD30 /* KokteylUtilsTests.swift */; };
 		9ECAAAB427C3C8DA00F583C4 /* UITableView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAAA327C3C8DA00F583C4 /* UITableView+KKUtils.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FC0100927E9F90000CB2F90 /* Collection+KKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+KKUtils.swift"; sourceTree = "<group>"; };
 		9EA3779227C2D47E0001BD30 /* KokteylUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KokteylUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA3779A27C2D47E0001BD30 /* KokteylUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KokteylUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA3779F27C2D47E0001BD30 /* KokteylUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokteylUtilsTests.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				9ECAAAB027C3C8DA00F583C4 /* Locale+KKUtils.swift */,
 				9ECAAAB127C3C8DA00F583C4 /* Dictionary+KKUtils.swift */,
 				9ECAAAB227C3C8DA00F583C4 /* UITextField+KKUtils.swift */,
+				0FC0100927E9F90000CB2F90 /* Collection+KKUtils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				9ECAAABD27C3C8DA00F583C4 /* UIApplication+KKUtils.swift in Sources */,
 				9ECAAAB627C3C8DA00F583C4 /* UINavigationController+KKUtils.swift in Sources */,
 				9ECAAAE327C3DB7D00F583C4 /* KKAnimatedImageView.swift in Sources */,
+				0FC0100A27E9F90000CB2F90 /* Collection+KKUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
