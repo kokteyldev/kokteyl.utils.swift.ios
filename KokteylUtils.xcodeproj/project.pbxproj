@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0FC0100827E9F48700CB2F90 /* UIDevice+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0100727E9F48700CB2F90 /* UIDevice+KKUtils.swift */; };
 		0FC0100A27E9F90000CB2F90 /* Collection+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0100927E9F90000CB2F90 /* Collection+KKUtils.swift */; };
+		0FC0100C27E9FE2200CB2F90 /* UIScrollView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0100B27E9FE2200CB2F90 /* UIScrollView+KKUtils.swift */; };
 		9EA3779B27C2D47E0001BD30 /* KokteylUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA3779227C2D47E0001BD30 /* KokteylUtils.framework */; };
 		9EA377A027C2D47E0001BD30 /* KokteylUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3779F27C2D47E0001BD30 /* KokteylUtilsTests.swift */; };
 		9ECAAAB427C3C8DA00F583C4 /* UITableView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECAAAA327C3C8DA00F583C4 /* UITableView+KKUtils.swift */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		0FC0100727E9F48700CB2F90 /* UIDevice+KKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+KKUtils.swift"; sourceTree = "<group>"; };
 		0FC0100927E9F90000CB2F90 /* Collection+KKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+KKUtils.swift"; sourceTree = "<group>"; };
+		0FC0100B27E9FE2200CB2F90 /* UIScrollView+KKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+KKUtils.swift"; sourceTree = "<group>"; };
 		9EA3779227C2D47E0001BD30 /* KokteylUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KokteylUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA3779A27C2D47E0001BD30 /* KokteylUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KokteylUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA3779F27C2D47E0001BD30 /* KokteylUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KokteylUtilsTests.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				9ECAAAB227C3C8DA00F583C4 /* UITextField+KKUtils.swift */,
 				0FC0100727E9F48700CB2F90 /* UIDevice+KKUtils.swift */,
 				0FC0100927E9F90000CB2F90 /* Collection+KKUtils.swift */,
+				0FC0100B27E9FE2200CB2F90 /* UIScrollView+KKUtils.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				9ECAAAC227C3C8DA00F583C4 /* Dictionary+KKUtils.swift in Sources */,
 				0FC0100827E9F48700CB2F90 /* UIDevice+KKUtils.swift in Sources */,
 				9ECAAAC027C3C8DA00F583C4 /* UIView+KKUtils.swift in Sources */,
+				0FC0100C27E9FE2200CB2F90 /* UIScrollView+KKUtils.swift in Sources */,
 				9ECAAABC27C3C8DA00F583C4 /* UICollectionView+KKUtils.swift in Sources */,
 				9ECAAABA27C3C8DA00F583C4 /* UITabBar+KKUtils.swift in Sources */,
 				9ECAAAB927C3C8DA00F583C4 /* UILabel+KKUtils.swift in Sources */,
