@@ -11,15 +11,15 @@ import UIKit
 public extension UIApplication {
     static var rootWindow: UIWindow? {
         if #available(iOS 13.0, *) {
-            return UIApplication.shared.connectedScenes
-                .filter({$0.activationState == .foregroundActive})
-                .compactMap({$0 as? UIWindowScene})
-                .first?.windows
-                .filter({$0.isKeyWindow}).first
+            return UIApplication
+                .shared
+                .connectedScenes
+                .compactMap { $0 as? UIWindowScene }
+                .flatMap { $0.windows }
+                .first
         } else {
             return UIApplication.shared.keyWindow
         }
-        
     }
     
     static var safeAreaBottom: CGFloat {

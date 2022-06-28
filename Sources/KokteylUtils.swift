@@ -12,4 +12,4 @@ import Foundation
 #error("KokteylUtils doesn't support Swift versions below 5.3")
 #endif
 
-let version = "1.0.10"
+let version = "1.0.12"
