@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3805D82939EF03006E0C89 /* KKCircularCountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3805D72939EF03006E0C89 /* KKCircularCountDownView.swift */; };
 		0FC0100827E9F48700CB2F90 /* UIDevice+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0100727E9F48700CB2F90 /* UIDevice+KKUtils.swift */; };
 		0FC0100A27E9F90000CB2F90 /* Collection+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0100927E9F90000CB2F90 /* Collection+KKUtils.swift */; };
 		0FC0100C27E9FE2200CB2F90 /* UIScrollView+KKUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC0100B27E9FE2200CB2F90 /* UIScrollView+KKUtils.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F3805D72939EF03006E0C89 /* KKCircularCountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKCircularCountDownView.swift; sourceTree = "<group>"; };
 		0FC0100727E9F48700CB2F90 /* UIDevice+KKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+KKUtils.swift"; sourceTree = "<group>"; };
 		0FC0100927E9F90000CB2F90 /* Collection+KKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+KKUtils.swift"; sourceTree = "<group>"; };
 		0FC0100B27E9FE2200CB2F90 /* UIScrollView+KKUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+KKUtils.swift"; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				9ECAAAE427C3DBA500F583C4 /* KKUILabel.swift */,
 				9ECAAAE627C3DBBE00F583C4 /* KKUIView.swift */,
 				0FC0101127EA007C00CB2F90 /* KKLoadingButton.swift */,
+				0F3805D72939EF03006E0C89 /* KKCircularCountDownView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F3805D82939EF03006E0C89 /* KKCircularCountDownView.swift in Sources */,
 				9ECAAABB27C3C8DA00F583C4 /* UIViewController+KKUtils.swift in Sources */,
 				9ECAAAC227C3C8DA00F583C4 /* Dictionary+KKUtils.swift in Sources */,
 				0FC0100827E9F48700CB2F90 /* UIDevice+KKUtils.swift in Sources */,
