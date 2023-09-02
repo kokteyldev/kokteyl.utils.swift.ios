@@ -11,7 +11,8 @@ final public class KKAnimatedImageView: UIImageView {
     public var imageName: String?
     public var frameCount: Int = 0
     public var duration: TimeInterval = 2
-    
+    public var imageTintColor: UIColor?
+
     // MARK: - View Lifecycle
     public override init(frame: CGRect) {
         super.init(frame: frame)
@@ -35,7 +36,11 @@ final public class KKAnimatedImageView: UIImageView {
         for i in 1...frameCount {
             let imageName = "\(imageName)-\(i)"
             if let image = UIImage(named: imageName) {
-                images.append(image)
+                if let imageTintColor, let tintedImage = image.imageWithColor(imageTintColor) {
+                    images.append(tintedImage)
+                } else {
+                    images.append(image)
+                }
             }
         }
         
